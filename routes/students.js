@@ -13,4 +13,8 @@ router.get('/BrainOut', (req, res, next) => {
     res.render('students/brain0ut', null)
 })
 
+router.get('/natrud', (req, res, next) => {
+    res.render('students/natrud', null)
+})
+
 module.exports = router
